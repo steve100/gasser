@@ -1,6 +1,6 @@
 # gasser 
 
-## A CAG Agent Proof oF Concept program to read from two photos: a gas pump and an odometer
+## A CAG Agent Proof Of Concept program to read from two photos: a gas pump and an odometer
    
 -  Setup a Python Virtual Environment
 -  Read and Extract the metadata (EXIF) from images in an imaage directory
