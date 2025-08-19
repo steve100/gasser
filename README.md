@@ -3,9 +3,10 @@
 ## A CAG Agent Proof Of Concept program to read from two photos: a gas pump and an odometer
    
 -  Setup a Python Virtual Environment
--  Read and Extract the metadata (EXIF) from images in an imaage directory
+-  Download the images manually or with a Python Oauth script.
+-  Read and Extract the metadata (EXIF) from images in an image directory
 -  Send the Images to a Local LLM model using LM Studio 
--  (Optionally) Send the images to a a foundational LLM model using ChatGPT
+-  (Optionally) Send the images to a  foundational LLM model using ChatGPT
 -  Calculate MPG
 -  Later:  Geocode and Draw a Map
 
