@@ -183,3 +183,16 @@ Errata:
 
 
 ```
+## CAG vs RAG
+# CAG vs RAG in AI
+
+| Feature | **RAG (Retrieval-Augmented Generation)** | **CAG (Context-Augmented Generation)** |
+|---------|------------------------------------------|-----------------------------------------|
+| **Core Idea** | Model retrieves information from an external knowledge source, then uses it in generation | Model is provided with additional context (can include retrieval, but also other types of context) |
+| **Typical Source of Context** | Vector databases, document stores, search APIs | Prior conversation history, metadata (user role, location), structured data, APIs, or retrieval results |
+| **Goal** | Improve factual accuracy and grounding | Improve relevance, personalization, and adaptability |
+| **Scope** | Narrower — focused on retrieval from knowledge bases | Broader — includes retrieval **and** other contextual signals |
+| **Example Use Case** | Customer support bot pulls troubleshooting steps from a knowledge base | Personal AI assistant that considers your calendar, preferences, and last conversation |
+| **Implementation** | Usually requires a retriever (e.g., vector search) + generator (LLM) | Can be implemented via prompt engineering, memory systems, retrieval, APIs, or a combination |
+| **Analogy** | “Look it up in the library, then answer.” | “Remember the whole situation, then answer.” |
+
