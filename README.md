@@ -1,22 +1,26 @@
 # gasser 
 
-## A program to use a photo of a gas pump and an odometer
+## A CAG Agent Proof oF Concept program to read from two photos: a gas pump and an odometer
    
 -  Setup a Python Virtual Environment
 -  Read and Extract the metadata (EXIF) from images in an imaage directory
 -  Send the Images to a Local LLM model using LM Studio 
--  Send the images to a a foundational LLM model using ChatGPT
+-  (Optionally) Send the images to a a foundational LLM model using ChatGPT
 -  Calculate MPG
 -  Later:  Geocode and Draw a Map
 
 ## Testing
 Tested Under Windows 11 pro
-Should run Under Linux - change the .bat files to .sh files
+Should run well under Linux - change the .bat files to .sh files
+Powershell under Windows is a good idea as well instead of .bat files
+
+
 
 ## Overall
 Reactions: 
 Surprised it could do all this.
-It can use a 7b VL model.
+   Using Model qwen2.5-vl-7b-instruct@q8_0 --gpu=max 
+   see below: check_local_running.bat 
 
 ## Pre-Configuration
 
