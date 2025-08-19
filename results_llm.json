@@ -1,0 +1,18 @@
+{
+    "odometer_image": {
+        "file": "2025-08-18T18-49-56+00-00_IMG_5798.jpg",
+        "bottom_value_total_mileage": "274989",
+        "top_value_trip": 0
+    },
+    "gas_pump_image": {
+        "file": "2025-08-18T18-51-08+00-00_IMG_5799.jpg",
+        "top_value_dollars": 17.73,
+        "bottom_value_gallons": 6.053
+    },
+    "model": "qwen/qwen2.5-7b-instruct-q8_0",
+    "source_dir": "./images_thumbnails",
+    "input_files": [
+        "2025-08-18T18-49-56+00-00_IMG_5798.jpg",
+        "2025-08-18T18-51-08+00-00_IMG_5799.jpg"
+    ]
+}

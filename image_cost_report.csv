@@ -1,0 +1,5 @@
+image,width,height,megapixels,billable_mp,model,image_cost,input_cost,output_cost,total_cost
+images_thumbnails\2025-08-18T18-49-56+00-00_IMG_5798.jpg,1008,756,0.762,0.8,gpt-4o,0.004,0.000483,0.0,0.004483
+images_thumbnails\2025-08-18T18-49-56+00-00_IMG_5798.jpg,1008,756,0.762,0.8,gpt-4o-mini,0.00032,2.9e-05,0.0,0.000349
+images_thumbnails\2025-08-18T18-51-08+00-00_IMG_5799.jpg,1008,756,0.762,0.8,gpt-4o,0.004,0.000483,0.0,0.004483
+images_thumbnails\2025-08-18T18-51-08+00-00_IMG_5799.jpg,1008,756,0.762,0.8,gpt-4o-mini,0.00032,2.9e-05,0.0,0.000349

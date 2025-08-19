@@ -1,0 +1,20 @@
+You will receive a set of images with their file names.
+Identify the SINGLE best Odometer image (trip meter top, total mileage bottom) and the SINGLE best Gas Pump image (dollars top, gallons bottom).Return ONLY valid JSON with this structure:
+
+{
+  "odometer_image": {
+    "file": "<filename or 'not found'>",
+    "top_value_trip": "<string or ''>",
+    "bottom_value_total_mileage": "<string or ''>"
+  },
+  "gas_pump_image": {
+    "file": "<filename or 'not found'>",
+    "top_value_dollars": "<string or ''>",
+    "bottom_value_gallons": "<string or ''>"
+  }
+}
+
+Rules:
+- Do not include any extra fields or commentary.
+- Use the provided file names exactly as given.
+- If an image type is not found, set "file" to "not found" and leave its values as "".
